@@ -1,0 +1,144 @@
+body{
+	background:url(image.jpg);
+	background-size: 100% 200%;
+	padding-top:1%;
+}
+
+#nav{
+	color:white;
+	background-color:#4682B4;
+	margin-top:2%;
+	padding-left:4%;
+	font-size:25px;
+	margin-left:25%;
+	width:50%;
+	border-radius:10px;
+	opacity:.8;
+}
+
+#nav1 {
+    color:white;
+	background-color:#4682B4;
+	margin-top:2%;
+	font-size:15px;
+	margin-left:25%;
+	width:50%;
+	border-radius:10px;
+	opacity:.8;
+}
+
+#Sex{
+	margin:3px;
+	width:200px;
+	border-radius:15px;
+	margin-left:0%;
+	height:35px;
+	background:#f6ebf4;
+	text-align: center;
+	
+}
+
+#id1{
+    margin-left:50px;
+}
+
+#id2{
+    margin-left:53px;
+}
+
+#id3{
+    margin-left:55px;
+}
+
+#id4{
+    margin-left:55px;
+}
+
+#id5{
+    margin-left:87px;
+}
+
+#id6{
+    margin-left:53px;
+}
+
+#Fname, #Lname{
+    margin-left:0px;
+}
+
+#Uname {
+    margin-left:7px;
+}
+
+#Password {
+    margin-left:7px;
+}
+
+#Address {
+    margin-left:23px;
+}
+
+#Zipcode {
+    margin-left:15px;
+}
+
+#Country {
+    margin-left:23px;
+}
+
+#Email {
+    margin-left:33px;
+}
+
+#Sex{
+    margin-left:60px;
+}
+
+#bio{
+    margin-left:50px;
+}
+
+#skills{
+    margin-left:45px;
+}
+
+#job{
+    margin-left:7px;
+}
+
+#company{
+    margin-left:10px;
+}
+
+#nav input{
+	margin-top:2%;
+	width:30%;
+	height:7%;
+	font-family:serif;
+	font-size:20px;
+	border-radius:5px;
+	font-weight:bold;
+}
+#nav button[type="submit"]{
+	margin:3px;
+	width:100px;
+	border-radius:15px;
+	margin-left:80%;
+	height:6%;
+	background:#f6ebf4;
+	color:#056969;
+	
+}
+
+#nav button[type="submit"]:hover{
+	background-color:#20B2AA;
+	color:white;
+}
+
+#nav{
+	font-size:20px;
+}
+
+
+
+	

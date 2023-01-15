@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(207, 146, 216);
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+ 
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(207, 146, 216);
+  border-left: none; 
+  cursor: pointer;
+  
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.searchboxclass{
+  margin-top: -315px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+
+.button-value1{
+  position: absolute;
+  margin-top: -280px;
+  padding: 2px;
+  border-radius: 1rem;
+  border-color: rgb(125, 102, 135);
+}
+.button-value2{
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 32px;
+  padding: 2px;
+  border-radius: 1rem;
+  border-color: rgb(125, 102, 135);
+}
+
+.button-value3{
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 147px;
+  padding: 2px;
+  border-radius: 1rem;
+  border-color: rgb(125, 102, 135);
+}
+
+.button-value4{
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 245px;
+  padding: 2px;
+  border-radius: 1rem;
+  border-color: rgb(125, 102, 135);
+  
+}
+
+.button-value1:hover{
+  background-color: transparent;
+  color: #f1f1f1;
+  
+}
+.button-value2:hover{
+  background-color: transparent;
+  color: #f1f1f1;
+}
+.button-value3:hover{
+  background-color:transparent;
+  color: #f1f1f1;
+}
+.button-value4:hover{
+  background-color: transparent;
+  color: #f1f1f1;
+}
+
+

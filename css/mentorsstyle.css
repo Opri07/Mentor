@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+a:link{
+    color: aqua(255, 115, 0);
+}
+a:visited{
+    color: rgb(136, 8, 241);
+}
+
+body{
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    padding: 20rem 0;
+    overflow: hidden;
+    background-image: url("./mantorsprofilepictureback.png");
+
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.person{
+    max-width:16.4rem;
+    margin-inline-end: auto;
+    position: relative;
+}
+
+.person__circle{
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 73%;
+    inset: auto 0 0;
+    margin-inline: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.person__container{
+    
+    aspect-ratio: 1 / 1.5;
+    display: grid;
+    align-items:end;
+    border-radius: 0 0 100% 100%;
+    overflow: hidden;
+    transition: transform 150ms ease;
+}
+
+.person__container:hover{
+    transform: scale(1.1);
+}
+
+.person__img{
+    position: relative;
+    z-index: 2;
+    transform: scale(1.2);
+    left:auto 2rem;  
+}
+
+.person__container:hover .person__img{
+    transform: scale(1.2)
+    translateY(-0.6rem);
+}
+
+
+
+
+#div1{
+    align-items: center;
+    margin-top: -24%;
+    margin-left: 40%;
+}
+
+#div2{
+    margin-top: -24%;
+    margin-left: 20%;
+}
+#div22{
+    margin-top: -30%;
+    margin-left: 10%;
+}
+
+
+.person2{
+    max-width:15rem;
+    margin-inline-end: auto;
+    position: relative;
+}
+
+.person__circle2{
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 77%;
+    inset: auto 0 0;
+    margin-inline: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.person__container2{
+    
+    aspect-ratio: 1 / 1.5;
+    display: grid;
+    align-items:end;
+    border-radius: 0 0 100% 100%;
+    overflow: hidden;
+    transition: transform 150ms ease;
+    
+}
+
+.person__container2:hover{
+    transform: scale(1.1);
+}
+
+.person__img2{
+    position: relative;
+    z-index: 2;
+    transform: scale(1.2);
+    left:auto 2rem;  
+}
+
+.person__container2:hover .person__img2{
+    transform: scale(1.2)
+    translateY(-0.6rem);
+}
+
+#div3{
+    margin-top: -24%;
+    margin-left: 60%;
+}
+
+.person3{
+    max-width:14.9rem;
+    margin-inline-end: auto;
+    position: relative;
+}
+
+.person__circle3{
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 79%;
+    inset: auto 0 0;
+    margin-inline: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.person__container3{
+    
+    aspect-ratio: 1 / 1.5;
+    display: grid;
+    align-items:end;
+    border-radius: 0 0 100% 100%;
+    overflow: hidden;
+    transition: transform 150ms ease;
+}
+
+.person__container3:hover{
+    transform: scale(1.1);
+}
+
+.person__img3{
+    position: relative;
+    z-index: 2;
+    transform: scale(1.2);
+    left:auto 2rem;  
+}
+
+.person__container3:hover .person__img3{
+    transform: scale(1.2)
+    translateY(-0.6rem);
+}
+
+
+
+h2{
+    margin-top: 70px;
+    color: rgb(55, 60, 59);
+    font-family:"Source Sans Pro", sans-serif;
+}
+
+.h1main{
+    position: absolute;
+    margin-top: -300px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(55, 60, 59);
+    margin-left: 36%;
+    font-size:1.2cm;
+}
+
+#h1Emily{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+

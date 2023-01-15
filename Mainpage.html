@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mainpage</title>
+</head>
+<body>
+    <script>
+        function findmentor(){
+            var x = document.getElementById("search").value;
+            if(x === "Student"){
+                window.open("./SignupStudent.html")
+            }
+            if(x === "Mentor"){
+                window.open("./SignupMentor.html")
+            }
+            else alert("This mentor does not exist! Maybe try something like: Student")
+        }
+    </script>
+    
+        <form>
+            <input type="search" id = "search" placeholder="Search mentors" class = "searchText">
+            <button type="search" id = "search" onclick = "findmentor()"><i class="fa fa-search"></i></button>
+          </form>
+    
+    
+    
+</body>
+</html>

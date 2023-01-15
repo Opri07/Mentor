@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="./css/mentorsstyle.css">
+    <link rel="stylesheet" href = "css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Mentors</title>
+    
+</head>
+<body>
+    
+    <div class = "h1main"> Our Head Mentors</div>
+    <script>
+        function findmentor(){
+            var x = document.getElementById("search").value;
+            if(x === "Alex Gomez"){
+                window.open("./AlexGomez.html")
+            }
+            if(x === "Emily Cooper"){
+                window.open("./EmilyCooper.html")
+            }
+            if( x=== "Clement Benoit"){
+                window.open("./ClementBenoit.html")
+            }
+            else alert("This mentor does not exist! Perhaps, search one of our head mentors!")
+        }
+        function functionmentor1(){
+            window.close();
+            window.open("./MentorsPage.html");
+        }
+        function functionmentor2(){
+            window.close()
+            window.open("./AlexGomez1.html");
+        }
+        function functionmentor3(){
+            window.close();
+            window.open("./EmilyCooper1.html");
+        }
+        function functionmentor4(){
+            window.close();
+            window.open("./ClementBenoit1.html");
+        }
+    </script>
+    
+        <form>
+            <div align = "right" class = "searchboxclass"> 
+            <input type="search" id = "search" placeholder="Search mentors" class = "searchText">
+            <button type="search" id = "search" onclick = "findmentor()"><i class="fa fa-search"></i></button>
+        </div>
+        
+          </form>
+        <div class = buttons> 
+            <button class = "button-value1" onclick = "functionmentor1()"> All</button>
+            <button class = "button-value2" onclick = "functionmentor2()"> Programmers</button>
+            <button class = "button-value3" onclick = "functionmentor3()"> Proffessors</button>
+            <button class = "button-value4" onclick = "functionmentor4()"> Psychologists</button>
+        </div>
+          
+    <div class = "person" id = "div1">
+        <a href = "EmilyCooper.html">
+        <div class="person__container">
+            <h2 align = "center">Emily Cooper</h2>
+            <img src="./css/backgroundmentors.jpg" class = "person__circle" alt=""></img>
+            <img  src="./css/mentor1 final.png" class = "person__img" alt="First mentor"></img>
+
+        </div></a>
+        
+        
+    </div>
+    
+    <div class = "person2" id = "div2">
+        <a href = "AlexGomez.html">
+        <div class="person__container2">
+            <h2 align = "center" >Alex Gomez</h2>
+            <img src="./css/backgroundmentors.jpg" class = "person__circle2" alt=""></img>
+            <img  src="./css/mentor4.png" class = "person__img2" alt="First mentor"></img>
+        </div></a>
+        
+        
+        
+    </div>
+    <div class = "person3" id = "div3">
+        <a href = "ClementBenoit.html">
+        <div class="person__container3">
+            <h2 align = "center">Clement Benoit</h2>
+            <img src="./css/backgroundmentors.jpg" class = "person__circle3" alt=""></img>
+            <img  src="./css/mentor5.png" class = "person__img3" alt="First mentor"></img>
+
+        </div></a>
+        
+        
+    </div>
+    
+    
+</body>
+</html>

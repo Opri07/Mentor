@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background: rgb(137, 197, 246);
+    border-radius: 25px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: -10%;
+    opacity: 1;
+}
+
+.container.active{
+    width: 400px;
+    height: 400px;
+   transition-delay: 0.5s;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    width: 40px;
+    height: 40px;
+    background: #7a9dac;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+
+.container.active .content{
+    transition-delay: 0.5s;
+    opacity: 1;
+    transform:scale(1);
+
+}
+.container .content{
+    min-width: 400px;
+    padding: 20px;
+    color: #fff;
+    opacity: 0;
+    margin-top: -350px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.toggleBtn{
+    position: absolute;
+    bottom: -23px;
+    min-width: 60px;
+    height: 60px;
+    background: rgb(137, 197, 246);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.toggleBtn::before{
+    content: '+';
+    font-size: 2.5em;
+    color: #fff;
+    
+}
+
+.container.active .toggleBtn{
+    bottom: -90px;
+    opacity: 1;
+    transform: rotate(135deg);
+    background: #ff5a57;
+}
+
+
+
+
+
+.toggleBtn2{
+    position: absolute;
+    bottom: -23px;
+    min-width: 60px;
+    height: 60px;
+    background: rgb(137, 197, 246);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.toggleBtn2::before{
+    content: '+';
+    font-size: 2.5em;
+    color: #fff;
+    
+}
+.container2.active .toggleBtn2{
+    bottom: -90px;
+    opacity: 1;
+    transform: rotate(135deg);
+    background: #ff5a57;
+}
+.container2{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background: rgb(137, 197, 246);
+    border-radius: 25px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: -10%;
+    opacity: 1;
+}
+
+.container2.active{
+    width: 400px;
+    height: 400px;
+   transition-delay: 0.5s;
+}
+
+.container2::before{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    width: 40px;
+    height: 40px;
+    background: #7a9dac;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+
+.container2.active .content2{
+    transition-delay: 0.5s;
+    opacity: 1;
+    transform:scale(1);
+
+}
+.container2 .content2{
+    min-width: 400px;
+    padding: 20px;
+    color: #fff;
+    opacity: 0;
+    margin-top: -350px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
