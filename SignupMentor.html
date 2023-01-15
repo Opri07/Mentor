@@ -11,7 +11,11 @@
     <div id = "nav">
     <H2>Sign-up Mentor</H2> <br>
     <form>
-        
+        <script>
+            function functionlogin(){
+                window.open("index.html");
+            }
+        </script>
     <label for = "Fname"> First Name: </label>
     <input type = "text" id = "Fname" placeholder="First Name" required>
 
@@ -59,7 +63,7 @@
     <input type = "text" id = "company" placeholder="Type the company">
 
     <form method = "get" id = "nav1"> 
-    <button type = "submit" id = "nav1">Submit</button>
+        <button type = "submit" onclick="functionlogin()" id = "nav1">Submit</button>
     </form>
     <br>
     </div>
