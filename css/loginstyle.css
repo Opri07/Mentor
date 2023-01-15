@@ -16,7 +16,7 @@
     
 }
     body{
-        background-image: url("/css/mentorate\ picture.png");
+        background-image: url("./mentoratepicture.png");
         background-size:1920px 755px;
         padding-top: 15%;
         overflow: hidden;
